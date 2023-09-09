@@ -59,4 +59,37 @@
       >;
     };
   };
+    combos {
+        compatible = "zmk,combos";
+        combo_ctrl_l {
+            timeout-ms = <50>;
+            key-positions = <30 31>;
+            bindings = <&kp LCTRL>;
+        };
+        combo_alt_l {
+            timeout-ms = <50>;
+            key-positions = <32 33>;
+            bindings = <&kp LALT>;
+        };
+        combo_super_l {
+            timeout-ms = <50>;
+            key-positions = <49 50>;
+            bindings = <&kp LGUI>;
+        };
+        combo_ctrl_r {
+            timeout-ms = <50>;
+            key-positions = <42 43>;
+            bindings = <&kp RCTRL>;
+        };
+        combo_alt_r {
+            timeout-ms = <50>;
+            key-positions = <44 45>;
+            bindings = <&kp LALT>;
+        };
+        combo_super_r {
+            timeout-ms = <50>;
+            key-positions = <57 58>;
+            bindings = <&kp LGUI>;
+        };
+    };
 };
