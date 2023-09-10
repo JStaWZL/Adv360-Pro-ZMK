@@ -78,12 +78,12 @@
       };
       combo_ctrl_r {
           timeout-ms = <50>;
-          key-positions = <41 42>;
+          key-positions = <43 44>;
           bindings = <&kp RCTRL>;
       };
       combo_alt_r {
           timeout-ms = <50>;
-          key-positions = <43 44>;
+          key-positions = <41 42>;
           bindings = <&kp LALT>;
       };
       combo_super_r {
